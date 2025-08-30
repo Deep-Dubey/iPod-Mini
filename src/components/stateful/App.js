@@ -422,14 +422,7 @@ class App extends React.Component {
 		//Unpacking the State
 		const { menu, screen, mouse, songsList, theme } = this.state;
 		//------------------------------------------------------------------------------------------
-		// Changing the Application Body Theme
-		const styling = () => {
-			if (theme.themeIndex === 0) {
-				return "background-color: ''; transition: all 2s linear;";
-			} else {
-				return "background-color: black; transition: all 2s linear;";
-			}
-		};
+		// ...existing code...
 		//------------------------------------------------------------------------------------------
 		return (
 			<div className="App">
